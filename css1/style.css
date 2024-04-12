@@ -1,0 +1,254 @@
+﻿html,body
+{
+font-family:'Lobster Two','Courgette',tahoma;
+}
+body{ margin: 0;}
+
+/*start maren*/
+.maren{ height: 800px; background-image: url('1.jpg'); background-size: cover;}
+.maren .links{  height: 60px; background-color: #1c1c1c; opacity: .3; overflow: hidden;}
+.maren .links .num1{  margin:0 0 0 20px;  padding-top: 20px;}
+.maren .links .num1 li{ display: inline-block; padding-right: 20px; color:#f4f3f3	;}
+.maren .links .num2{ margin:0 40px 0 0; padding-top: 20px;float: right; font-size: 25px;}
+.maren .links .num2 li{ display: inline-block; padding-left: 40px; color: #fff;}
+.maren img{ margin: 150px 0 50px 400px; ;}
+.maren h1,
+.maren p{ color: #fff;line-height: 1.4;}
+.maren p{ color:#c3bebe; font-size: 20px;}
+.maren button{  padding: 15px 30px;  margin-top: 30px; border: 0;  border-radius: 25px;font-family:'Lobster Two','Courgette',tahoma;}
+.maren .but1{ margin-left: 350px; background-color: #8c198c; opacity: .5; color: #fff;    cursor: pointer;
+}
+.maren .but1:hover{ background-color: #1c1c1c; opacity: .3;}
+.maren .but2{ margin-left: 15px; background-color: #1d27b8	;opacity: .5; color:#fff;    cursor: pointer;
+}
+.maren .but2:hover{ background-color: #1c1c1c; opacity: .3;}
+/*end maren*/
+
+/*start services*/
+.services{ height: 400px; background-color: #fff; overflow: hidden; line-height: 1.4;}
+.services h1{ margin: 70px 0  20px 0;color: #404040	; font-style: italic;  letter-spacing: 2px;}
+.services .Brand{ width: 30%; margin-left: 80px;padding-left: 10px;}
+.services .Brand h3,
+.services .web h3,
+.services .media h3{ margin-left: 20px; color: #7a7a7a	;}
+.services .Brand p,
+.services .web p,
+.services .media p{ margin-left: 20px;}
+.services .web{ width: 30%; padding-left: 10px;}
+.services .media{ width: 25%;padding-left: 10px;}
+/*end services*/
+
+/*start great*/
+.great{ overflow: hidden;background-color: #f8f8f8;}
+.great .support{ width: 50%;margin:70px 20px 40px 30px;}
+.great .support h2{ color:#7a7a7a;}
+.great .support p{ word-spacing: 4px;}
+.great .phone{ width: 40%; float: right; margin:70px 30px 40px 20px;}
+.great .phone img{padding-left: 45px;}
+/*end great*/
+
+/*start download*/
+.download{background-image: url('1.jpg (1920×1280).png');}
+.download p{ padding: 70px 0 30px 0; margin-top: 0;}
+.download button
+{
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 25px;
+    margin-bottom: 70px;
+    background-color: #8c198c;
+    opacity: .5;
+    color: #fff;
+    letter-spacing: 1;
+    font-family:'Lobster Two','Courgette',tahoma;
+        cursor: pointer;
+
+}
+.download button:hover{ background-color: #1c1c1c;opacity: .3;}
+/*end download*/
+
+/*start portofolio*/
+.portfolio{ background-color: #fff; overflow: hidden;}
+.portfolio h1{color: #7a7a7a	; margin:70px 0 30px 0; letter-spacing: 1;}
+.portfolio .first{ color: #b4adad; margin-bottom: 30px;}
+.portfolio .acme{ width: 30%;  padding: 10px;}
+.portfolio .word{ width: 30%; padding: 10px;}
+.portfolio .creat{ width: 30%; padding: 10px;}
+.portfolio .acme img,
+.portfolio .word img,
+.portfolio .creat img{ width: 100%; margin: 10px;  padding: 10px;}
+.portfolio .acme a,
+.portfolio .word a,
+.portfolio .creat a{ margin: 20px; text-decoration: none; color: #7a7a7a;font-size: 25px;}
+.portfolio .acme a:hover,
+.portfolio .word a:hover,
+.portfolio .creat a:hover{ color: #080;}
+.portfolio .sec{ color:  #b4adad; line-height: 1.5; margin: 30px 0 0 20px;;}
+.portfolio button
+{
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 25px;
+    margin:50px 0  70px 400px;
+    background-color: #920a8c;
+    color: #fff;
+    letter-spacing: 1;
+    font-family:'Lobster Two','Courgette',tahoma;
+        cursor: pointer;
+
+}
+.portfolio button:hover{ background-color:#920a8c;opacity: .3;}
+/*end portofolio*/
+
+/*start para*/
+.para{ height: 450px; background-image: url('1.jpg');background-size: cover;}
+.para .hos{ height: 150px;}
+.para #circle
+{ 
+    width: 120px; 
+    height: 120px;
+    background-image: url('1%20(2).jpg');
+    background-size: cover;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px; 
+    border-radius: 60px; 
+    margin: 0 0 30px 450px;
+}
+.para p{color: #d2d2d2;}
+.para a{margin-left: 400px; text-decoration: none;  color: #d2d2d2;  margin-bottom: 20px;}
+/*end para*/
+
+/*start from*/
+.from{ overflow: hidden;}
+.from h1{ margin: 50px 0; color:  #7a7a7a	; }
+.from .image1,
+.from .image3
+{
+    width: 40%;
+    display: inline-block;
+   margin: 0 50px 0 30px;
+    margin-bottom: 30px;  
+}
+.from .image1 img,
+.from .image2 img,
+.from .image3 img,
+.from .image4 img{ width: 100px;}
+.from .image1  .a1 a,
+.from .image2  .a2 a,
+.from .image3  .a3 a,
+.from .image4  .a4 a
+{
+    margin: 0;
+    float: right;
+    margin-right: 90px;
+    text-decoration: none;
+    color:  #7a7a7a	;
+}
+.from .image1  .a1 p,
+.from .image2  .a2 p,
+.from .image3  .a3 p,
+.from .image4  .a4 p{margin-left: 110px; float: right;}
+.from .image1 .a1 a:hover,
+.from .image2 .a2 a:hover,
+.from .image3 .a3 a:hover,
+.from .image4 .a4 a:hover{ text-decoration:underline;  color: #b4adad	;}
+.from .image2,
+.from .image4
+{
+    width: 40%;
+    display: inline-block;
+    float: right;
+    margin-right: 80px;
+    margin-bottom: 30px;
+}
+.from button
+{
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 25px;
+    margin-bottom: 70px;
+    background-color: #8c198c;
+    color: #fff;
+    letter-spacing: 1;
+    margin:30px 0 75px 400px;
+    font-family:'Lobster Two','Courgette',tahoma;
+        cursor: pointer;
+
+}
+.from button:hover{ background-color: #8c198c; opacity: .5;}
+/*end from*/
+
+/*start footer*/
+.footer{ height: 500px; background-color: #444; overflow: hidden;}
+.footer .contact{ width: 50%}
+.footer .contact h4,
+.footer .follow  h4{ margin:50px 30px 30px; color: #e1dddd;}
+.footer .contact .but1,
+.footer .contact .but2
+{
+    margin: 0 0 20px 30px;
+    display: block;
+    background-color: #666;
+    border: 0;
+    line-height: 2;
+    width: 80%;
+    border-radius: 10px;
+    font-family:'Lobster Two','Courgette',tahoma;
+        cursor: pointer;
+
+}
+.footer .contact .but2{line-height: 3;}
+.footer .contact button
+{
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 25px;
+    margin-bottom: 40px;
+    background-color: #8c198c;
+    color: #fff;
+   letter-spacing: 1;
+    margin:20px 0 0 150px;font-family:'Lobster Two','Courgette',tahoma;
+    cursor: pointer;
+}
+.footer .contact button:hover{ background-color: #8c198c; opacity: .5;}
+.footer .follow{ width: 50%;}
+.footer .follow .num3{ margin: 0; padding-top: 20px;font-size: 25px;}
+.footer .follow .num3 li{ display: inline-block;  padding-left: 50px;  color: #fff;}
+.footer .follow P{ line-height: 1.7; margin-left: 30PX; color: #7a7a7a	;}
+.footer .follow P a{ text-decoration: none; color:  #e1dddd;}
+/*end footer*/
+
+/*start framework*/
+.spech{color: #b4adad;}
+.hight{ line-height: 1.5;}
+.left{float: left;}
+.center{text-align: center;}
+.none{list-style: none;}
+/*end framework*/
+
+/*start Media*/
+@media(max-width:767px)
+{
+   
+    
+}
+@media(min-width:768px) and (max-width:991px)
+{
+   .great .support 
+    {
+       width: 50%;
+       margin: 70px 16px 40px 30px;
+    }
+}
+@media(min-width:992px) and (max-width:1199px)
+{
+   
+}
+@media(min-width:1200px )
+{
+    .portfolio button 
+    {
+	margin-left:550px;
+    }
+}
+/*end Media*/

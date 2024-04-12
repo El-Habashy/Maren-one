@@ -1,0 +1,27 @@
+@media(max-width:767px)
+{
+   
+    .maren .links {
+        height: 150px;
+    }
+    .maren .links .num1 li {
+        padding-bottom: 18px;
+    }
+    .maren .links .num2{
+        margin: 0;
+        padding-top: 0;
+    }
+    
+}
+@media(min-width:768px) and (max-width:991px)
+{
+    
+}
+@media(min-width:992px) and (max-width:1199px)
+{
+   
+}
+@media(min-width:1200px )
+{
+    
+}
